@@ -20,6 +20,11 @@ const Welcome = () => {
         <Text style={styles.userName}>Hello User</Text>
         <Text style={styles.welcomeMessage}>Find your perfect job!</Text>
       </View>
+      <View style={styles.searchContainer}>
+        <View style={styles.searchWrapper}>
+          <TextInput style={styles.searchInput} />
+        </View>
+      </View>
     </View>
   );
 };
