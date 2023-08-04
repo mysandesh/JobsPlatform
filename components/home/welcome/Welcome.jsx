@@ -5,12 +5,14 @@ import {
   TextInput,
   TouchableOpacity,
   Image,
-  Flatlist,
+  FlatList,
 } from "react-native";
 import { useRouter } from "expo-router";
 
 import styles from "./welcome.style";
 import { icons, SIZES } from "../../../constants";
+
+const jobTypes = ["Full-time", "Part-time", "Contractor"];
 
 const Welcome = () => {
   const router = useRouter();
@@ -37,6 +39,16 @@ const Welcome = () => {
             style={styles.searchBtnImage}
           />
         </TouchableOpacity>
+      </View>
+      <View style={styles.tabsContainer}>
+        <FlatList
+          data={jobTypes}
+          renderItem={({ item }) => (
+            <TouchableOpacity>
+              <Text>{item}</Text>
+            </TouchableOpacity>
+          )}
+        />
       </View>
     </View>
   );
