@@ -1,6 +1,6 @@
 # Jobs Platform App
 
-The app is developed using React Native with Expo.
+This app is developed using React Native with Expo.
 
 <!-- Use [`expo-router`](https://expo.github.io/router) to build native navigation using files in the `app/` directory. -->
 
