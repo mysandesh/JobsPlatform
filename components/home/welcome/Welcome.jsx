@@ -29,7 +29,7 @@ const Welcome = () => {
             style={styles.searchInput}
             value=""
             onChange={() => {}}
-            placeholder="Search your job"
+            placeholder="Search your job!"
           />
         </View>
 
