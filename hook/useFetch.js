@@ -16,11 +16,6 @@ const useFetch = (endpoint) => {
       "X-RapidAPI-Key": rapidApiKey,
       "X-RapidAPI-Host": "jsearch.p.rapidapi.com",
     },
-    params: {
-      query: "Python developer in Texas, USA",
-      page: "1",
-      page: "1",
-      num_pages: "1",
-    },
+    params: { ...query },
   };
 };
