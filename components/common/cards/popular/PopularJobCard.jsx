@@ -15,7 +15,7 @@ const PopularJobCard = ({ item, selectedJob, handleCardPress }) => {
           style={styles.logoImage}
         />
       </TouchableOpacity>
-      <Text>{item.employer_name}</Text>
+      <Text style={styles.companyName}>{item.employer_name}</Text>
     </TouchableOpacity>
   );
 };
