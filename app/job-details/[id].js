@@ -1,4 +1,11 @@
-import { Text } from "react-native";
+import {
+  Text,
+  View,
+  SafeAreaView,
+  ScrollView,
+  ActivityIndicator,
+  RefreshControl,
+} from "react-native";
 
 const JobDetails = () => {
   return <Text>JobDetails</Text>;
