@@ -26,7 +26,11 @@ const JobDetails = () => {
   const { data, isLoading, error, refetch } = useFetch("job-details", {
     job_id: params.id,
   });
-  return <Text>JobDetails</Text>;
+  return (
+    <SafeAreaView
+      style={{ flex: 1, backgroundColor: COLORS > lightwhite }}
+    ></SafeAreaView>
+  );
 };
 
 export default JobDetails;
