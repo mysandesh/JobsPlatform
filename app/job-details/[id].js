@@ -28,7 +28,7 @@ const JobDetails = () => {
   });
   return (
     <SafeAreaView
-      style={{ flex: 1, backgroundColor: COLORS > lightwhite }}
+      style={{ flex: 1, backgroundColor: COLORS.lightwhite }}
     ></SafeAreaView>
   );
 };
