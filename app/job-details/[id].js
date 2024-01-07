@@ -33,16 +33,16 @@ const JobDetails = () => {
           headerStyle: { backgroundColor: COLORS.lightWhite },
           headerShadowVisible: false,
           headerBackVisible: false,
-          headerLeft: () => {
+          headerLeft: () => (
             <ScreenHeaderBtn
               iconUrl={icons.left}
               dimension="60%"
               handlePress={() => router.back()}
-            />;
-          },
-          headerRight: () => {
-            <ScreenHeaderBtn iconUrl={icons.share} dimension="60%" />;
-          },
+            />
+          ),
+          headerRight: () => (
+            <ScreenHeaderBtn iconUrl={icons.share} dimension="60%" />
+          ),
         }}
       ></Stack.Screen>
     </SafeAreaView>
